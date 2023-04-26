@@ -16,7 +16,7 @@ const tempo = document.getElementById('tempo');
 const timerWorker = new Worker('js/worker.js');
 const songList = [
     ['Verte Así', 140],
-    ['Que se yo qué hacer', 138],
+    ['Que se yo qué hacer', 140],
     ['El Payaso', 120],
     ['Macumba', 95],
     ['Pampa y la Via', 156],
