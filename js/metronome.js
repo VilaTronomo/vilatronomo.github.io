@@ -15,14 +15,22 @@ const songTable = document.getElementById('songsTable');
 const tempo = document.getElementById('tempo');
 const timerWorker = new Worker('js/worker.js');
 const songList = [
+    ['El Error', 120],
     ['Verte Así', 140],
     ['Que se yo qué hacer', 140],
+    ['Yo Canibal', 157],
+    ['Ciclotimia', 128],
     ['El Payaso', 120],
     ['Macumba', 95],
-    ['Pampa y la Via', 156],
+    ['En el Último bar', 118],
+    ['Lunes por la madrugada', 140],
     ['En la Calle', 150],
-    ['Bailando al cielo', 150],
-    ['Sabor a danza', 150]
+    ['Pampa y la Via', 156],
+    ['Tira para arriba', 130],
+    ['Bailando al cielo', 145],
+    ['El Mismo Aire', 140],
+    ['Sabor a danza', 150],
+    ['La Bolsa', 165]
 ]
 const songListLength = songList.length;
 
@@ -59,7 +67,7 @@ function startStop() {
         add = 'stop';
     }
     isPlaying = !isPlaying;
-    timerWorker.postMessage(msg);
+    timerWorker.postMessage(isPlaying);
     playStop.classList.remove(msg);
     playStop.classList.add(add);
     playIcon.classList.remove('fa-' + msg);
@@ -121,5 +129,4 @@ function prevNext(next) {
 }
 
 timerWorker.onmessage = () => schedule();
-
 loadSongList();
