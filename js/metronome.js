@@ -15,6 +15,7 @@ const songTable = document.getElementById('songsTable');
 const tempo = document.getElementById('tempo');
 const timerWorker = new Worker('js/worker.js');
 const songList = [
+<<<<<<< HEAD
     ['Ciclotimia', 128],
     ['Verte Así', 140],
     ['Que se yo qué hacer', 140],
@@ -23,8 +24,26 @@ const songList = [
     ['Macumba', 95],
     ['Pampa y la Via', 156],
     ['En la Calle', 150],
+=======
+    ['Verte Así (engancha)', 140],
+    ['Que se yo qué hacer', 140],
+    ['Ciclotimia', 128],
+    ['Lunes por la madrugada', 140],
+    ['El Error', 120],
+    ['El Payaso', 120],
+    ['Macumba/Arrancármelo', 95],
+    ['En el Último bar', 118],
+    ['Yo Caníbal', 157],
+    ['En la Calle', 150],
+    ['Pampa/Ramón', 156],
+    ['Tira para arriba', 130],
+>>>>>>> 5a5ed00ef0c76cd09d64652edf2d6c879aa40780
     ['Bailando al cielo', 145],
     ['Sabor a danza', 150],
+<<<<<<< HEAD
+=======
+    ['La Bolsa (BIS)', 165]
+>>>>>>> 5a5ed00ef0c76cd09d64652edf2d6c879aa40780
 ]
 const songListLength = songList.length;
 
