@@ -15,22 +15,16 @@ const songTable = document.getElementById('songsTable');
 const tempo = document.getElementById('tempo');
 const timerWorker = new Worker('js/worker.js');
 const songList = [
-    ['El Error', 120],
+    ['Ciclotimia', 128],
     ['Verte Así', 140],
     ['Que se yo qué hacer', 140],
-    ['Yo Canibal', 157],
-    ['Ciclotimia', 128],
     ['El Payaso', 120],
-    ['Macumba', 95],
     ['En el Último bar', 118],
-    ['Lunes por la madrugada', 140],
-    ['En la Calle', 150],
+    ['Macumba', 95],
     ['Pampa y la Via', 156],
-    ['Tira para arriba', 130],
+    ['En la Calle', 150],
     ['Bailando al cielo', 145],
-    ['El Mismo Aire', 140],
     ['Sabor a danza', 150],
-    ['La Bolsa', 165]
 ]
 const songListLength = songList.length;
 
