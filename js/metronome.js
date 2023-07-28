@@ -15,12 +15,12 @@ const songTable = document.getElementById('songsTable');
 const tempo = document.getElementById('tempo');
 const timerWorker = new Worker('js/worker.js');
 const songList = [
-    ['Ciclotimia', 128],
     ['Verte Así', 140],
     ['Que se yo qué hacer', 140],
     ['El Payaso', 120],
     ['En el Último bar', 118],
     ['Macumba', 95],
+    ['Ciclotimia', 128],
     ['Pampa y la Via', 156],
     ['En la Calle', 150],
     ['Bailando al cielo', 145],
