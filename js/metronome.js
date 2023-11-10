@@ -16,7 +16,7 @@ const tempo = document.getElementById('tempo');
 const timerWorker = new Worker('js/worker.js');
 const songList = [
     ["El Error", 122],
-    ["Ciclotimia", 134],
+    ["Ciclotimia", 128],
     ["A Las Nueve", 130],
     ["Verte Así", 140],
     ["El Payaso", 120],
@@ -26,7 +26,7 @@ const songList = [
     ["Cero A La Izquierda", 142],
     ["En El Último Bar", 120],
     ["Que Se Yo Que Hacer", 140],
-    ["Tira Para Arriba", ],
+    ["Tira Para Arriba", 130],
     ["Pampa - Ramon", 156],
     ["Bailando Al Cielo", 150],
     ["Sabor A Danza", 150]
