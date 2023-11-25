@@ -15,7 +15,7 @@ const songTable = document.getElementById('songsTable');
 const tempo = document.getElementById('tempo');
 const timerWorker = new Worker('js/worker.js');
 const songList = [
-    ["El Error", 122],
+    ["El Error", 125],
     ["Ciclotimia", 128],
     ["A Las Nueve", 130],
     ["Verte Así", 140],
